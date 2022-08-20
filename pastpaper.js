@@ -1277,29 +1277,22 @@ case 'maths_2015': {
  }
  break
 		
-
-      case 'groupsetting': case 'grup': {
-                                  if (!m.isGroup) retrun
-                                  if (!isBotAdmins) return 
-                                  if (!isAdmins) return
-                                  if (args[0] === 'close'){
-                                      await ElisaBotMd.groupSettingUpdate(m.chat, 'announcement')
-                                  } else if (args[0] === 'open'){
-                                      await ElisaBotMd.groupSettingUpdate(m.chat, 'not_announcement')
-                                  } else {
-                                  let buttons = [
-                                          { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
-                                          { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
-                                      ]
-                                      await ElisaBotMd.sendButtonText(m.chat, buttons, `Group Mode`, ElisaBotMd.user.name, m)
-                  
-                               }
-                              }
-                              break
-
-      
+case 'mute': {		
+if (!m.isGroup) retrun
+ if (!isBotAdmins) return 
+ if (!isAdmins) return
+await ElisaBotMd.groupSettingUpdate(m.chat, 'not_announcement')
+	reply(`success`)
+}     
  
-            default:
+case 'unmute': {
+if (!m.isGroup) retrun
+ if (!isBotAdmins) return 
+  if (!isAdmins) return	
+await ElisaBotMd.groupSettingUpdate(m.chat, 'announcement')
+reply(`success`)	
+}
+	default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return reply(mess.owner)
                     function Return(sul) {
