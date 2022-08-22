@@ -245,6 +245,22 @@ ElinaBotMd.sendContact = async (jid, kon, quoted = '', opts = {}) => {
      * @param {*} options 
      * @returns 
      */
+	
+ElinaBotMd.sendListMsg = (jid, text = '', footer = '', title = '' , butText = '', sects = [], quoted) => {
+        let sections = sects
+        var listMes = {
+        text: text,
+        footer: footer,
+        title: title,
+        buttonText: butText,
+        sections
+        }
+        ElisaBotMd.sendMessage(jid, listMes, { quoted: quoted })
+        }
+
+/**
+
+**/
     ElinaBotMd.sendImage = async (jid, path, caption = '', quoted = '', options) => {
 	let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         return await ElinaBotMd.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
