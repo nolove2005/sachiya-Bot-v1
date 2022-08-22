@@ -688,7 +688,7 @@ case 'menu' : {
      ]
      await ElisaBotMd.sendListMsg(m.chat, `
      ඔබට අවශ්‍ය විශයය තෝරන්න..!😇 
-     `, `${global.botnma}`, `${global.ownernma}`, `විෂය තෝරන්න`, sections, m)
+     `, `${global.botnma}`, `විෂය තෝරන්න`, sections, m)
  
         }
         break    
