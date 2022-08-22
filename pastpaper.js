@@ -621,7 +621,7 @@ wa.me/94716338723
 
 
  
-case 'menu':{
+case 'menu2':{
     const menu=`ඔබට අවශ්‍ය විශයය තෝරන්න..!😇
 
     🔴බුද්ධ_ධර්මය *buddhism*
@@ -643,7 +643,55 @@ t.me/pastpapersolbot 👈On Telegram
  }
 
  break
+case 'menu' : {    
+            let sections = [{
 
+            "rows": [{
+			"title": "🔴බුද්ධ_ධර්මය",
+				"rowId": `buddhism`
+			},
+	     	{
+			"title": "🔴සිංහල",
+			"rowId": `sinhala`
+			},
+			{
+			"title": "🔴English",
+			"rowId": `english`
+			},
+			{
+			"title": "🔴ගණිතය",
+			"rowId": `maths`
+			},
+            {
+			"title": "🔴විද්‍යාව",
+			"rowId": `science`
+			},
+            {
+			"title": "🔴ඉතිහාසය",
+			"rowId": `history`
+			},
+            {
+			"title": "🔴පළමු_කාණ්ඩය",
+			"rowId": `bas1`
+			},
+            {
+			"title": "🔴දෙවන_කාණ්ඩය",
+			"rowId": `bas2`
+			},
+            {
+			"title": "🔴තෙවන_කාණ්ඩය",
+			"rowId": `bas3`
+			}
+          }
+        ]
+      }
+     ]
+     await ElisaBotMd.sendListMsg(m.chat, `
+     ඔබට අවශ්‍ය විශයය තෝරන්න..!😇 
+     `, `${global.botnma}`, `${global.ownernma}`, `විෂය තෝරන්න`, sections, m)
+ 
+        }
+        break    
  
  
  
