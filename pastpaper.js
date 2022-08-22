@@ -1324,6 +1324,1188 @@ case 'maths_2015': {
  
  }
  break
+
+		
+		
+		
+		
+		
+		
+		
+case 'bas1':{
+    const menu=`ඔබට අවශ්‍ය විශයය තෝරන්න..!😇
+
+    🔴පුරවැසි අධ්‍යාපනය *civic*
+    🔴කොමස් *commerce*
+    🔴භූගෝල විද්‍යාව *geography*
+    🔴දෙමළ *tamil*
+
+    
+t.me/pastpapersolbot 👈On Telegram
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+ break
+
+
+
+ case 'bas2':{
+    const menu=`ඔබට අවශ්‍ය විශයය තෝරන්න..!😇
+
+    🔴චිත්‍ර *art*
+    🔴නැටුම් *dance*
+    🔴සංගීතය(පෙරදිග) *music_o*
+    🔴නාට්‍ය *drama*
+    🔴සිංහල රසාස්වාදය *lit_si*
+    🔴ඉංග්‍රීසි රසාස්වාදය *lit_en*
+    
+
+t.me/pastpapersolbot 👈On Telegram
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+ break
+
+
+
+ case 'bas3':{
+    const menu=`ඔබට අවශ්‍ය විශයය තෝරන්න..!😇
+
+    🔴කෘෂිකර්මය *agri*
+    🔴සෞඛ්‍ය *health*
+    🔴ගෘහ විද්‍යාව *home_econ*
+    🔴ICT *ict*
+    🔴මාධ්‍ය අධ්‍යනය *media*
+    
+
+t.me/pastpapersolbot 👈On Telegram
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+ break
+
+
+
+//1bas
+//civic
+
+case 'civic':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *civic_2015*
+   ✅2016 *civic_2016*
+   ✅2017 *civic_2017*
+   ✅2018 *civic_2018*
+   ✅2019 *civic_2019*
+   ✅2020 *civic_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+case 'civic_2015': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2015-OL-Civic%20Education(i).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2015-OL-Civic%20Education(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-civic_2015'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-civic_2015'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'civic_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2016-OL-Civic%20Education.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'civic_2016'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'civic_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2017-OL-Civic%20Education.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'civic_2017'}, { quoted: m })
+ 
+ }
+ break
+ case 'civic_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2018-OL-Civic%20Education.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'civic_2018'}, { quoted: m })
+ 
+ }
+ break
+
+
+ case 'civic_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2019-OL-Civic%20Education(i).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2019-OL-Civic%20Education(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-civic_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-civic_2019'}, { quoted: m })
+ 
+ }
+ break
+
+
+ case 'civic_2020': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2020-OL-Civic%20Education(i).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Civic%20Education/2020-OL-Civic%20Education(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-civic_2020'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-civic_2020'}, { quoted: m })
+ 
+ }
+ break
+
+//commerce
+
+case 'commerce':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *cmz_2015*
+   ✅2016 *cmz_2016*
+   ✅2017 *cmz_2017*
+   ✅2018 *cmz_2018*
+   ✅2019 *cmz_2019*
+   ✅2020 *cmz_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+case 'cmz_2015': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2015-OL-COMMERCE(i).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2015-OL-COMMERCE(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-cmmerce_2015'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-cmmerce_2015'}, { quoted: m })
+ 
+ }
+ break
+ case 'cmz_2016': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2016-OL-COMMERCE(i).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2016-OL-COMMERCE(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-cmmerce_2016'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-cmmerce_2016'}, { quoted: m })
+ 
+ }
+ break
+ case 'cmz_2017': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2017-OL-COMMERCE(ii).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2017-OL-COMMERCE(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-cmmerce_2017'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-cmmerce_2017'}, { quoted: m })
+ 
+ }
+ break
+ case 'cmz_2018': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2018-OL-COMMERCE(ii).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2018-OL-COMMERCE(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-cmmerce_2018'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-cmmerce_2018'}, { quoted: m })
+ 
+ }
+ break
+ case 'cmz_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2019-OL-COMMERCE(ii).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2019-OL-COMMERCE(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-cmmerce_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-cmmerce_2019'}, { quoted: m })
+ 
+ }
+ break
+
+case 'cmz_2020': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Commerce/2020-OL-COMMERCE.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'cmmerce_2020'}, { quoted: m })
+ 
+ }
+ break
+
+//geography
+
+
+case 'geography':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *geo _2015*
+   ✅2016 *geo _2016*
+   ✅2017 *geo _2017*
+   ✅2018 *geo _2018*
+   ✅2019 *geo _2019*
+   ✅2020 *geo _2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+
+case 'geo_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Geography/2015-OL-Geography.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'geography_2015'}, { quoted: m })
+ 
+ }
+ break
+ 
+ case 'geo_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Geography/2016-OL-Geography.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'geography_2016'}, { quoted: m })
+ 
+ }
+ break
+ case 'geo_2017': {
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Geography/2017-OL-Geography.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'geography_2017'}, { quoted: m })
+ 
+ }
+ break
+ case 'geo_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Geography/2018-OL-Geography.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'geography_2018'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'geo_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Geography/2019-OL-Geography(i).pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Geography/2019-OL-Geography(ii).pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-geography_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-geography_2019'}, { quoted: m })
+ 
+ }
+ break
+ 
+ case 'geo_2020': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Geography/2020-OL-Geography.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'geography_2020'}, { quoted: m })
+ 
+ }
+ break
+    
+//tamil
+
+
+case 'tamil':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *tamil_2015*
+   ✅2016 *tamil_2016*
+   ✅2017 *tamil_2017*
+   ✅2018 *tamil_2018*
+   ✅2019 *tamil_2019*
+   ✅2020 *tamil_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+
+
+case 'tamil_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Tamil/2015-OL-Tamil.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'tamil_2015'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'tamil_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Tamil/2016-OL-Tamil.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'tamil_2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'tamil_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Tamil/2017-OL-Tamil.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'tamil_2017'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'tamil_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Tamil/2018-OL-Tamil.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'tamil_2018'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'tamil_2019': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Tamil/2019-OL-Tamil.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'tamil_2019'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'tamil_2020': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/First%20basket%20subjects/Tamil/2020-OL-Tamil.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'tamil_2020'}, { quoted: m })
+ 
+ }
+ break
+ 
+ //bas2
+ //art
+ case 'art':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2016 *art_2016*
+   ✅2017 *art_2017*
+   ✅2018 *art_2018*
+   ✅2019 *art_2019*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+ 
+
+
+
+case 'art_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Art/2017-OL-Art.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'art_2017'}, { quoted: m })
+ 
+ }
+ break
+ 
+ case 'art_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Art/2016-OL-Art.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'art_2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+ case 'art_2018': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Art/2018-OL-Art-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Art/2018-OL-Art-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-art_2018'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-art_2018'}, { quoted: m })
+ 
+ }
+ break
+ 
+ case 'art_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Art/2019-OL-Art-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Art/2019-OL-Art-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-art_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-art_2019'}, { quoted: m })
+ 
+ }
+ break
+ 
+ case 'art_2015':{
+    const menu=`2015 චිත්‍ර Paper එක නෑනේහ්😕 ඔයාලා අතේ තියේනම් ඒක ඇඩ්මින්ට එවන්න🥰`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'art_2020':{
+    const menu=`2020 චිත්‍ර Paper එක නෑනේහ්😕 ඔයාලා අතේ තියේනම් ඒක ඇඩ්මින්ට එවන්න🥰`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+//dance
+
+case 'dance':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *dance_2015*
+   ✅2016 *dance_2016*
+   ✅2017 *dance_2017*
+   ✅2018 *dance_2018*
+   ✅2019 *dance_2019*
+   ✅2020 *dance_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'dance_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Dance/Oriental%20Dancing/2015-OL-Dancing.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'dance_2015'}, { quoted: m })
+ 
+ }
+ break
+ case 'dance_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Dance/Oriental%20Dancing/2016-OL-Dancing.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'dance_2016'}, { quoted: m })
+ 
+ }
+ break
+ case 'dance_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Dance/Oriental%20Dancing/2017-OL-Dancing.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'dance_2017'}, { quoted: m })
+ 
+ }
+ break
+ case 'dance_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Dance/Oriental%20Dancing/2018-OL-Dancing.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'dance_2018'}, { quoted: m })
+ 
+ }
+ break
+ case 'dance_2019': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Dance/Oriental%20Dancing/2019-Dancing-OL.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'dance_2019'}, { quoted: m })
+ 
+ }
+ break
+ case 'dance_2020': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Dance/Oriental%20Dancing/2020-OL-Dancing.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'dance_2020'}, { quoted: m })
+ 
+ }
+ break
+      
+
+//drama
+
+
+case 'drama':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *drama_2015*
+   ✅2016 *drama_2016*
+   ✅2017 *drama_2017*
+   ✅2018 *drama_2018*
+   ✅2019 *drama_2019*
+   ✅2020 *drama_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'drama_2015': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2015-OL-DRAMA-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2015-OL-DRAMA-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-drama_2015'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-drama_2015'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'drama_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2016-OL-Drama.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'drama_2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+ 
+
+ 
+
+ case 'drama_2017': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2017-OL-DRAMA-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2017-OL-DRAMA-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-drama_2017'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-drama_2017'}, { quoted: m })
+ 
+ }
+ break
+
+
+ case 'drama_2018': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2018-OL-DRAMA-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2018-OL-DRAMA-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-drama_2018'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-drama_2018'}, { quoted: m })
+ 
+ }
+ break
+
+
+ case 'drama_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2019-OL-DRAMA-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2019-OL-DRAMA-PART-II.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-drama_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-drama_2019'}, { quoted: m })
+ 
+ }
+ break
+
+
+ case 'drama_2020': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2020-OL-DRAMA-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Drama/2020-OL-DRAMA-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-drama_2020'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-drama_2020'}, { quoted: m })
+ 
+ }
+ break
+
+//lit_si
+ case 'lit_si':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *lit_si_2015*
+   ✅2016 *lit_si_2016*
+   ✅2017 *lit_si_2017*
+   ✅2018 *lit_si_2018*
+   ✅2019 *lit_si_2019*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+case 'lit_si_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/Sinhala/%E0%B7%83%E0%B7%92%E0%B6%82%E0%B7%84%E0%B6%BD%20%E0%B6%BB%E0%B7%83%E0%B7%8F%E0%B7%83%E0%B7%8A%E0%B7%80%E0%B7%8F%E0%B6%AF%E0%B6%BA%202015%20.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_si_2015'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'lit_si_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/Sinhala/%E0%B6%BB%E0%B7%83%E0%B7%8F%E0%B7%83%E0%B7%8A%E0%B7%80%E0%B7%8F%E0%B6%AF%E0%B6%BA%202016%20.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_si_2016'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'lit_si_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/Sinhala/2017%20lit%20ol.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_si_2017'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'lit_si_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/Sinhala/%E0%B7%83%E0%B7%92%E0%B6%82%E0%B7%84%E0%B6%BD%20%E0%B6%BB%E0%B7%83%E0%B7%8F%E0%B7%83%E0%B7%8A%E0%B7%80%E0%B7%8F%E0%B6%AF%E0%B6%BA%202018%20.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_si_2018'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'lit_si_2019': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/Sinhala/%E0%B7%83%E0%B7%92%E0%B6%82%E0%B7%84%E0%B6%BD%20%E0%B6%BB%E0%B7%83%E0%B7%8F%E0%B7%83%E0%B7%8A%E0%B7%80%E0%B7%8F%E0%B6%AF%E0%B6%BA%202019.PDF'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_si_2019'}, { quoted: m })
+ 
+ }
+ break
+
+
+//lit_en
+
+
+case 'lit_en':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *lit_en_2015*
+   ✅2016 *lit_en_2016*
+   ✅2017 *lit_en_2017*
+   ✅2018 *lit_en_2018*
+   ✅2019 *lit_en_2019*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'lit_en_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/English/2015-OL-ENGLISH.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_en_2015'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'lit_en_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/English/2016%20English%20Literary.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_en_2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'lit_en_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/English/2017%20Appreciation%20of%20English%20Literary.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_en_2017'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'lit_en_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/English/2018%20Appreciation%20of%20English%20Literary.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_en_2018'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'lit_en_2019': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Literary%20Subjects/English/2019-OL-ENGLISH-LITERATURE.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'lit_en_2019'}, { quoted: m })
+ 
+ }
+ break
+ 
+     
+
+//music_o
+
+
+case 'music_o':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *music_o_2015*
+   ✅2016 *music_o_2016*
+   ✅2017 *music_o_2017*
+   ✅2018 *music_o_2018*
+   ✅2019 *music_o_2019*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'music_o_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Music/Oriental%20Music/2015-OL-Music-Oriental.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'Music 2015'}, { quoted: m })
+ 
+ }
+ break
+
+
+ case 'music_o_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Music/Oriental%20Music/2016-OL-Music-Oriental.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'music 2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+ case 'music_o_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Music/Oriental%20Music/2017-OL-Music-Oriental.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'music 2017'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'music_o_2018': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Music/Oriental%20Music/2018-OL-MUSIC-ORIENTAL-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Music/Oriental%20Music/2018-OL-MUSIC-ORIENTAL-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-music 2018'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-music 2018'}, { quoted: m })
+ 
+ }
+ break
+ 
+ 
+ case 'music_o_2019': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Second%20basket%20subjects/Music/Oriental%20Music/2019-OL-Music-Oriental.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'music 2019'}, { quoted: m })
+ 
+ }
+ break
+
+
+//bas3
+//agri
+
+case 'agri':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *agri_2015*
+   ✅2016 *agri_2016*
+   ✅2017 *agri_2017*
+   ✅2018 *agri_2018*
+   ✅2019 *agri_2019*
+   ✅2020 *agri_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'agri_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Agriculture/2015-OL-Agriculture-amp-Food-Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'agri_2015'}, { quoted: m })
+ 
+ }
+ break
+
+ 
+case 'agri_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Agriculture/2016-OL-Agriculture-amp-Food-Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'agri_2016'}, { quoted: m })
+ 
+ }
+ break
+
+ 
+case 'agri_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Agriculture/2017-OL-Agriculture-amp-Food-Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'agri_2017'}, { quoted: m })
+ 
+ }
+ break
+
+ 
+case 'agri_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Agriculture/2018-OL-Agriculture-And-Food-Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'agri_2018'}, { quoted: m })
+ 
+ }
+ break
+
+ 
+ case 'agri_2019': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Agriculture/2019%20Agri.%20_%20Food%20Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'agri_2019'}, { quoted: m })
+ 
+ }
+ break
+
+
+  
+case 'agri_2020': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Agriculture/2020-OL-Agriculture-and-Food-Tech.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'agri_2020'}, { quoted: m })
+ 
+ }
+ break
+
+
+//health
+
+case 'health':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *health_2015*
+   ✅2016 *health_2016*
+   ✅2017 *health_2017*
+   ✅2018 *health_2018*
+   ✅2019 *health_2019*
+   ✅2020 *health_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+case 'health_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2015-OL-Health-amp-physical-Education.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'health_2015'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'health_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2016-OL-Health-amp-Physical-Education.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'health_2016'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'health_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2017-OL-Health-amp-Physical-Education.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'health_2017'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'health_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2018-OL-Health-amp-Physical-Education.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'health_2018'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'health_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2019-OL-HEALTH-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2019-OL-HEALTH-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-health_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-health_2019'}, { quoted: m })
+ 
+ }
+ break    
+
+ 
+case 'health_2020': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2020-OL-HEALTH-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Health/2020-OL-HEALTH-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-health_2020'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-health_2020'}, { quoted: m })
+ 
+ }
+ break
+
+//home_icon
+case 'home_econ':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *home_2015*
+   ✅2016 *home_2016*
+   ✅2017 *home_2017*
+   ✅2018 *home_2018*
+   ✅2019 *home_2019*
+   ✅2020 *home_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+case 'home_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Home%20Economics/2015-OL-Home-Economics.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'home_2015'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'home_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Home%20Economics/2016-OL-Home-Economics.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'home_2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'home_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Home%20Economics/2017-OL-Home-Economics.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'home_2017'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'home_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Home%20Economics/2018-OL-Home-Economics.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'home_2018'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'home_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Home%20Economics/2019-OL-HOME-ECONOMICS-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Home%20Economics/2019-OL-HOME-ECONOMICS-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-home_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-home_2019'}, { quoted: m })
+ 
+ }
+ break
+
+ case 'home_2020': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Home%20Economics/2020-OL-Home-Science.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'home_2020'}, { quoted: m })
+ 
+ }
+ break
+ 
+     
+
+//ict
+
+case 'ict':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *ict_2015*
+   ✅2016 *ict_2016*
+   ✅2017 *ict_2017*
+   ✅2018 *ict_2018*
+   ✅2019 *ict_2019*
+   ✅2020 *ict_2020*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'ict_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2015-OL-Information-amp-Communication-Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'ict_2015'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'ict_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2016-OL-Information-amp-Communication-Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'ict_2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'ict_2017': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2017-OL-Information-amp-Communication-Technology.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'ict_2017'}, { quoted: m })
+ 
+ }
+ break
+ 
+case 'ict_2018': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2018-OL-ICT-PART-I.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2018-OL-ICT-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-ict_2018'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-ict_2018'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'ict_2019': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2019-OL-INFORMATION-AND-COMMUNICATION-TECHNOLOGY-PART-I-.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2019-OL-INFORMATION-AND-COMMUNICATION-TECHNOLOGY-PART-II.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-ict_2019'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-1ct_2019'}, { quoted: m })
+ 
+ }
+ break
+ 
+  
+
+ case 'ict_2020': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/ICT/2020-OL-ICT.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'ict_2020'}, { quoted: m })
+ 
+ }
+ break
+ 
+    
+//media
+
+case 'media':{
+    const menu=`වර්ෂය තෝරන්න..!😎
+  
+   ✅2015 *media_2015*
+   ✅2016 *media_2016*
+   ✅2017 *media_2017*
+   ✅2018 *media_2018*
+   ✅2019 *media_2019*
+   
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
+    ElisaBotMd.sendText(m.chat,menu)
+
+ }
+
+break
+
+
+case 'media_2015': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Media/2015.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'media_2015'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'media_2016': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Media/2016.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'media_2016'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+
+ case 'media_2017': {
+ 
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Media/2017-1.pdf'
+    let PAPER2 = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Media/2017.pdf'
+ 
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'part1-media_2017'}, { quoted: m })
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER2 }, mimetype: 'application/pdf', fileName: 'Part2-media_2017'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+
+
+ case 'media_2018': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Media/2018.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'media_2018'}, { quoted: m })
+ 
+ }
+ break
+ 
+
+ case 'media_2019': {
+
+    let PAPER = 'https://github.com/SL-Real-Tech/Files/raw/main/Past-Papers/Third%20basket%20subjects/Media/2019.pdf'
+    ElisaBotMd.sendMessage(m.chat, { document: { url:PAPER }, mimetype: 'application/pdf', fileName: 'media_2019'}, { quoted: m })
+ 
+ }
+ break
+		
+		
 		
 case 'mute': {		
 if (!m.isGroup) retrun
