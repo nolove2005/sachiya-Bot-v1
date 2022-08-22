@@ -1,0 +1,33 @@
+let sections = [{
+
+            "rows": [{
+			"title": "test1 ",
+				"rowId": `test1 id`
+			},
+		{
+			"title": "Text2 ",
+			"rowId": `text2 id`
+			}
+          }
+        ]
+      }
+     ]
+     await ElisaBotMd.sendListMsg(m.chat, `උබේ මැස්ස්සේජ් එක ඒ කියන්නේ පේන්න තියෙන එක`, `${global.botnma}`, `${global.ownernma}`, `MAKE LOGO`, sections, m)
+ 
+ 
+ 
+ 
+ BUTTON TEMPLATE
+ const templateButtons = [
+                    {buttonId: ``, buttonText: {displayText: 'text'}, type: 1},
+                    {buttonId: ``, buttonText: {displayText: 'text2'}, type: 1}
+                  ]
+
+const templateMessage = {
+    text: `text`,
+    footer: global.botnma,
+    templateButtons: templateButtons,
+     
+     await ElisaBotMd.sendMessage(m.chat, templateMessage, { quoted: m })   
+
+BROAD CAST EKA HADALA DENNAM ✨🦄
