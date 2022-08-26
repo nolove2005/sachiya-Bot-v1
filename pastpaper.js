@@ -186,7 +186,9 @@ module.exports = ElisaBotMd = async (ElisaBotMd, m, chatUpdate, store) => {
                 mute: false,
                 antilink: false,
             }
-	  if(!isBotAdmins)thorw '*පළමුව බොට් සදහා ඇඩ්මින් ලබාදෙන්න !*'
+	  if(!isBotAdmins)return await ElisaBotMd.sendText(m.chat,`
+	  *පළමුව බොට් සදහා ඇඩ්මින් ලබාදෙන්න !*
+	  `)
 	    let setting = global.db.data.settings[botNumber]
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
