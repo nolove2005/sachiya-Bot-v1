@@ -689,8 +689,6 @@ case 'alive':{
 
 
 *(RTD)EduBot by Pasindu Sandaruwan❤️* `
-
-Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
     ElisaBotMd.sendText(m.chat,menu)
 
  }
