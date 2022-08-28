@@ -694,6 +694,7 @@ case 'alive':{
     ElisaBotMd.sendText(m.chat,menu)
 
  }
+break
  
 case 'menu':{
     const menu=`ඔබට අවශ්‍ය විශයය තෝරන්න..!😇
