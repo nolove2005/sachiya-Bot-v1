@@ -186,8 +186,12 @@ module.exports = ElisaBotMd = async (ElisaBotMd, m, chatUpdate, store) => {
                 mute: false,
                 antilink: false,
             }
-	  if(!isBotAdmins && m.isGroup && command)return await ElisaBotMd.sendText(m.chat,`
-	  *පළමුව බොට් සදහා ඇඩ්මින් ලබාදෙන්න !*
+	  if(!isBotAdmins && m.isGroup && command)return await ElisaBotMd.sendText(m.chat,`*පළමුව බොට් සදහා ඇඩ්මින් ලබාදෙන්න!*
+*First! make the bot the group admin..!*
+*முதலில் போட்டை குழு நிர்வாகியாக்குங்கள்!*
+
+Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ
+
 	  `)
 	    let setting = global.db.data.settings[botNumber]
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
