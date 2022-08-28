@@ -604,7 +604,9 @@ reply('Done !')
                                 }
                               break
                               case 'bcimg' : {
-                              let media = await quoted.download()
+                            //  let media = await quoted.download()
+let media = await ElisaBotMd.downloadAndSaveMediaMessage(quoted)
+                                
                               let getGroups = await ElisaBotMd.groupFetchAllParticipating()
                                   let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                                   let anu = groups.map(v => v.id)
