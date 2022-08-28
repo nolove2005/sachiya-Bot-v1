@@ -568,24 +568,26 @@ switch(command) {
         reply (' *QUEEN ELISA BOT DEVOLOPER* ')
         }
         break
+ 
 case 'kick':{
         if (!m.isGroup) throw mess.group
         if (!isBotAdmins) throw mess.botAdmin
         if (!isAdmins) throw '*💬 නිවේදනය*\n\n'+ '```මෙය සමූහයේ පරිපාලකයින්ට පමණක් බාවිතකළහැකි විදානයකි !```'
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-await ElisaBotMd.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => reply('```සමූහයෙන් පන්නා දමන ලදි !```').catch((err) => reply('```දෝසයක් සිදුවී ඇත පසුව උත්සාහ කරන්න !```')
+await ElisaBotMd.groupParticipantsUpdate(m.chat, [users], 'remove')
+reply('removed')
  
                       }
                       break
                       case 'add': {
 if (!m.isGroup) throw mess.group
         if (!isBotAdmins) throw mess.botAdmin
-        if (!isAdmins) throw '*💬 නිවේදනය*\n\n'+ '```මෙය සමූහයේ පරිපාලකයින්ට පමණක් බාවිතකළහැකි විදානයකි !```'
+        if (!isAdmins) return reply( '*💬 නිවේදනය*\n\n'+ '```මෙය සමූහයේ පරිපාලකයින්ට පමණක් බාවිතකළහැකි විදානයකි !```')
 let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-await ElisaBotMd.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => reply('```සමූහයට එක්කර ගන්නා ලදි !```').catch((err) => reply('```දෝසයක් සිදුවී ඇත පසුව උත්සාහ කරන්න !```')
-                      }
-                      break         
-        
+await ElisaBotMd.groupParticipantsUpdate(m.chat, [users], 'add')
+reply('Done !')
+}
+                      break           
         
 case 'start':{
     const menu=`Past-Papers-OL-bot🎓 
