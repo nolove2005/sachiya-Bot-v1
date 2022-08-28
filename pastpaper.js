@@ -587,7 +587,38 @@ let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsap
 await ElisaBotMd.groupParticipantsUpdate(m.chat, [users], 'add')
 reply('Done !')
 }
-                      break           
+                      break  
+   case 'bcgctext' :{
+                              if (!isCreator) return reply( mess.owner)
+                              if (!text) throw `${Lang.BC_GC}\n${Lang.EXAMPLE} ${prefix + command} *Hello i am using queen elisa 🤍*`
+                                  let getGroups = await ElisaBotMd.groupFetchAllParticipating()
+                                  let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
+                                  let anu = groups.map(v => v.id)
+                                  reply(`*Send Broadcast To ${anu.length} Group Chat, Finish Time ${anu.length * 1.5} second*`)
+                                  for (let i of anu) {
+                                      await sleep(1500)
+                                  await ElisaBotMd.sendText(i,`${text}`)
+                                  reply (`*Successful Sending Broadcast To ${anu.length} Group(s)*`)
+                                  
+                                  }
+                                }
+                              break
+                              case 'bcimg' : {
+                              let media = await quoted.download()
+                              let getGroups = await ElisaBotMd.groupFetchAllParticipating()
+                                  let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
+                                  let anu = groups.map(v => v.id)
+                                  reply(`*Send Broadcast To ${anu.length} Group Chat, Finish Time ${anu.length * 1.5} second*`)
+                                  for (let i of anu) {
+                                      await sleep(1500)
+                                  await ElisaBotMd.sendText(i,`${text}`)
+                                  await ElisaBotMd.sendMessage(i, { image: { url: media } }, { quoted: m })
+                                  reply (`*Successful Sending Broadcast To ${anu.length} Group(s)*`)
+                                  
+                                  }
+                                
+                              }
+                              break      
         
 case 'start':{
     const menu=`Past-Papers-OL-bot🎓 
