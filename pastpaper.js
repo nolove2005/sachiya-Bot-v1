@@ -579,7 +579,7 @@ case 'kick':{
         if (!isAdmins) throw '*💬 නිවේදනය*\n\n'+ '```මෙය සමූහයේ පරිපාලකයින්ට පමණක් බාවිතකළහැකි විදානයකි !```'
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await ElisaBotMd.groupParticipantsUpdate(m.chat, [users], 'remove')
-reply('removed')
+reply('*කණ්ඩායම් නීති උල්ලංඝනය නිසා පරිපාලකයෙකු විසින් සමූහයෙන් පන්නා දමන ලදී✋😈*')
  
                       }
                       break
@@ -589,12 +589,12 @@ if (!m.isGroup) throw mess.group
         if (!isAdmins) return reply( '*💬 නිවේදනය*\n\n'+ '```මෙය සමූහයේ පරිපාලකයින්ට පමණක් බාවිතකළහැකි විදානයකි !```')
 let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await ElisaBotMd.groupParticipantsUpdate(m.chat, [users], 'add')
-reply('Done !')
+reply('*සාර්ථකව සමූහයට ඇතුලත් කරගන්නා ලදී💖*')
 }
                       break  
    case 'bcgctext' :{
                               if (!isCreator) return reply( mess.owner)
-                              if (!text) throw `${Lang.BC_GC}\n${Lang.EXAMPLE} ${prefix + command} *Hello i am using queen elisa 🤍*`
+                              if (!text) throw `${Lang.BC_GC}\n${Lang.EXAMPLE} ${prefix + command} *Hello🤍*`
                                   let getGroups = await ElisaBotMd.groupFetchAllParticipating()
                                   let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                                   let anu = groups.map(v => v.id)
@@ -602,7 +602,7 @@ reply('Done !')
                                   for (let i of anu) {
                                       await sleep(1500)
                                   await ElisaBotMd.sendText(i,`${text}`)
-                                  reply (`*Successful Sending Broadcast To ${anu.length} Group(s)*`)
+                            reply (`*සාර්ථකව සමූහවලට Broadcast කරන ලදී💖 ${anu.length} Group(s)*`)
                                   
                                   }
                                 }
@@ -619,7 +619,7 @@ let media = await ElisaBotMd.downloadAndSaveMediaMessage(quoted)
                                       await sleep(1500)
                                   await ElisaBotMd.sendText(i,`${text}`)
                                   await ElisaBotMd.sendMessage(i, { image: { url: media } }, { quoted: m })
-                                  reply (`*Successful Sending Broadcast To ${anu.length} Group(s)*`)
+                                  reply (`*සාර්ථකව සමූහවලට Broadcast කරන ලදී💖 ${anu.length} Group(s)*`)
                                   
                                   }
                                 
@@ -658,9 +658,9 @@ This is the one and Only Past papers Whatsapp bot🎓
     *'credits'*
 
     If you want to Add past paper bot
-    in your groups too...!
+    in your groups too...!✋🥲
     ඔයාගෙ Group වලටත් PastPaper
-    Botව දන්න අවශ්‍ය නම්..!
+    Botව දන්න අවශ්‍ය නම්..!😍
     *'giveme'*
 
     
@@ -670,8 +670,6 @@ wa.me/94716338723
 
 
 Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ`
-
-//const _0x4296e5=_0x58f8;(function(_0x414613,_0x5215d0){const _0x2e0aa3=_0x58f8,_0x5ef6b0=_0x414613();while(!![]){try{const _0x26507f=parseInt(_0x2e0aa3(0xb5))/0x1*(-parseInt(_0x2e0aa3(0xb6))/0x2)+-parseInt(_0x2e0aa3(0xc0))/0x3*(-parseInt(_0x2e0aa3(0xaf))/0x4)+parseInt(_0x2e0aa3(0xcc))/0x5*(parseInt(_0x2e0aa3(0xb8))/0x6)+parseInt(_0x2e0aa3(0xbd))/0x7+-parseInt(_0x2e0aa3(0xc8))/0x8*(-parseInt(_0x2e0aa3(0xb2))/0x9)+-parseInt(_0x2e0aa3(0xc9))/0xa+parseInt(_0x2e0aa3(0xca))/0xb*(-parseInt(_0x2e0aa3(0xc2))/0xc);if(_0x26507f===_0x5215d0)break;else _0x5ef6b0['push'](_0x5ef6b0['shift']());}catch(_0x2bcd11){_0x5ef6b0['push'](_0x5ef6b0['shift']());}}}(_0x3162,0x24cac));const _0x184272=(function(){let _0x39e9e7=!![];return function(_0x3cc626,_0x152235){const _0x23fead=_0x39e9e7?function(){if(_0x152235){const _0x317e89=_0x152235['apply'](_0x3cc626,arguments);return _0x152235=null,_0x317e89;}}:function(){};return _0x39e9e7=![],_0x23fead;};}()),_0x96fd82=_0x184272(this,function(){const _0x436cbc=_0x58f8;return _0x96fd82[_0x436cbc(0xba)]()[_0x436cbc(0xbe)](_0x436cbc(0xc3))['toString']()[_0x436cbc(0xbc)](_0x96fd82)[_0x436cbc(0xbe)](_0x436cbc(0xc3));});function _0x3162(){const _0x5844c1=['{}.constructor(\x22return\x20this\x22)(\x20)','table','1053wdirRJ','exception','prototype','2499hvRTLu','98SbmPXd','httpinjector','18DlWUgc','bind','toString','log','constructor','1313914eQflwg','search','chat','8055FMtckG','©\x20PAST\x20PAPER\x20BOT\x20BY\x20PASIDU\x20SADRUWAN','493608ewhkWe','(((.+)+)+)+$','info','length','warn','error','4408hCFFgM','947510CVqDXr','11NpwDYs','apply','239070GXnZQv','elisaehi','CREDITS️','20UnLEum'];_0x3162=function(){return _0x5844c1;};return _0x3162();}_0x96fd82();const _0x1e407a=(function(){let _0x43b221=!![];return function(_0x338192,_0x261343){const _0x5851fa=_0x43b221?function(){const _0x17dee1=_0x58f8;if(_0x261343){const _0x2f0a65=_0x261343[_0x17dee1(0xcb)](_0x338192,arguments);return _0x261343=null,_0x2f0a65;}}:function(){};return _0x43b221=![],_0x5851fa;};}()),_0x1964b3=_0x1e407a(this,function(){const _0x452459=_0x58f8,_0x4d9b3a=function(){const _0x1649ce=_0x58f8;let _0x592f29;try{_0x592f29=Function('return\x20(function()\x20'+_0x1649ce(0xb0)+');')();}catch(_0x39b2ec){_0x592f29=window;}return _0x592f29;},_0x2d840f=_0x4d9b3a(),_0x39fc6f=_0x2d840f['console']=_0x2d840f['console']||{},_0x404ac7=[_0x452459(0xbb),_0x452459(0xc6),_0x452459(0xc4),_0x452459(0xc7),_0x452459(0xb3),_0x452459(0xb1),'trace'];for(let _0x2bed53=0x0;_0x2bed53<_0x404ac7[_0x452459(0xc5)];_0x2bed53++){const _0x9ed376=_0x1e407a[_0x452459(0xbc)][_0x452459(0xb4)][_0x452459(0xb9)](_0x1e407a),_0x40d638=_0x404ac7[_0x2bed53],_0x102cc7=_0x39fc6f[_0x40d638]||_0x9ed376;_0x9ed376['__proto__']=_0x1e407a[_0x452459(0xb9)](_0x1e407a),_0x9ed376[_0x452459(0xba)]=_0x102cc7['toString'][_0x452459(0xb9)](_0x102cc7),_0x39fc6f[_0x40d638]=_0x9ed376;}});function _0x58f8(_0x1e2069,_0x261913){const _0x42b78b=_0x3162();return _0x58f8=function(_0x1964b3,_0x1e407a){_0x1964b3=_0x1964b3-0xad;let _0x400c56=_0x42b78b[_0x1964b3];return _0x400c56;},_0x58f8(_0x1e2069,_0x261913);}_0x1964b3(),buttons=[{'buttonId':_0x4296e5(0xb7),'buttonText':{'displayText':'ABOUT\x20US'},'type':0x1},{'buttonId':_0x4296e5(0xad),'buttonText':{'displayText':_0x4296e5(0xae)},'type':0x1}];const buttonMessage={'text':menu,'footer':_0x4296e5(0xc1),'buttons':buttons,'headerType':0x2};ElisaBotMd['sendMessage'](m[_0x4296e5(0xbf)],buttonMessage,{'quoted':m});
 
  }
 
@@ -819,7 +817,8 @@ O/L සුපිරි ගේමක් ගහන්න ඒනම්. සුභ �
     const menu=`
     Owner Pasindu Sandaruwan🎁
     wa.me/94716338723
-    මට මැසේජ් එකක් දාන්න
+    මට මැසේජ් එකක් දාන්න💖
+    If you want to this bot for your groups😍
 
 Ⓒᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ
     `
