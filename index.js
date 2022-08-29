@@ -94,7 +94,93 @@ async function startElisaBotMd() {
             console.log(err)
         }
     })
-    
+    ElisaBotMd.ev.on('group-participants.update', async (anu) => {
+        console.log(anu)
+        try {
+            let metadata = await ElisaBotMd.groupMetadata(anu.id)
+            let participants = anu.participants
+            for (let num of participants) {
+                // Get Profile Picture User
+                try {
+                    ppuser = await ElisaBotMd.profilePictureUrl(num, 'image')
+                } catch {
+                    ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                }
+
+                // Get Profile Picture Group
+                try {
+                    ppgroup = await ElisaBotMd.profilePictureUrl(anu.id, 'image')
+                } catch {
+                    ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                }
+
+                if (anu.action == 'add') {
+                var buffer = await getBuffer(ppuser)
+                let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                he = `Welcome To ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
+                let link = `https://youtube.com/MRNIMAOFC`
+let buttons = [
+{buttonId: `menu2`, buttonText: {displayText: '🎓 𝚂𝚃𝙰𝚁𝚃 🎓'}, type: 1}
+]
+let buttonMessage = {
+document: fs.readFileSync('./lib/tes.xlsx'),
+mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+jpegThumbnail:buffer,
+mentions: [num],
+fileName: `𝙿𝙰𝚂𝚃 𝙿𝙰𝙿𝙴𝚁 𝙱𝙾𝚃 2022`,
+fileLength: 99999999999999,
+caption: `${he}`,
+footer: `${global.botnma}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title: `Don't forget to smile today`,
+body: `SUBSCRIBE NIMA OFC`,
+mediaType:2,
+thumbnail: buffer,
+sourceUrl: link,
+mediaUrl: link,
+}}
+}
+ElisaBotMd.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
+     if (anu.id.startswith('212')) {
+     return reply ('*Fake number is not alowd !*')
+     }
+                } else if (anu.action == 'uuuuremove') {
+                    let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                    he = `He/She is gone bro ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
+                    let link = `https://youtu.be/cvj3054O5NU`
+let buttons = [
+{buttonId: `halo`, buttonText: {displayText: 'BYE'}, type: 1}
+]
+let buttonMessage = {
+document: fs.readFileSync('./lib/tes.xlsx'),
+mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+jpegThumbnail:buffer,
+mentions: [num],
+fileName: `He/She is gone bro ${metadata.subject}`,
+fileLength: 99999999999999,
+caption: he,
+footer: `${global.botnma}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title: `BYE DONT COME BACK HERE OKAY`,
+body: `SUBSCRIBE NIMA OFC`,
+mediaType:2,
+thumbnail: buffer,
+sourceUrl: link,
+mediaUrl: link,
+}}
+}
+ElisaBotMd.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
+                }
+            }
+        } catch (err) {
+            console.log(err)
+        }
+    })
+	
 	
     //Setting\\
     ElisaBotMd.decodeJid = (jid) => {
