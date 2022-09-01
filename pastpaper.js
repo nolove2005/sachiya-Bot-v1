@@ -2601,20 +2601,20 @@ case 'media_2015': {
 		
 		
 		
-case 'mute': {		
+case 'unmute': {		
 if (!m.isGroup) retrun
  if (!isBotAdmins) return 
  if (!isAdmins) return
 await ElisaBotMd.groupSettingUpdate(m.chat, 'not_announcement')
-	reply(`success`)
+	reply(`සමූහය විවෘත කරල ලදී!`)
 }     
 break
-case 'unmute': {
+case 'mute': {
 if (!m.isGroup) retrun
  if (!isBotAdmins) return 
   if (!isAdmins) return	
 await ElisaBotMd.groupSettingUpdate(m.chat, 'announcement')
-reply(`success`)	
+reply(`සමූහය වසා දමන ලදී!`)	
 }
 break
 	default:
