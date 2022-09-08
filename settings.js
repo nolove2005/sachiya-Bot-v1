@@ -40,7 +40,7 @@ global.botnma = 'ᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱ
 global.ownernma = 'Pasindu Sandaruwan' //ownernama,ownername
 global.packname = 'SL Real Tech' // Sticker package name 
 global.author = 'PLEASE SUBSCRIBE' // Sticker Autor name 
-global.sessionName = 'session'
+global.sessionName = 'session-2'
 global.prefa = ['#','!','/',''] 
 global.sp = '🔵'
 // Alive massage , ඔබේ බොගේ alive massage  එක මෙහි ඇති ` ` මෙම ලකුනු ඇතුලේ ඔබට අවශ්‍ය ඔනිම දෙයක් Type කරන්න.💃
