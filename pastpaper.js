@@ -692,6 +692,8 @@ case 'alive':{
 
 *(RTD)EduBot by Pasindu Sandaruwan❤️* `
     ElisaBotMd.sendText(m.chat,menu)
+	
+	ElisaBotMd.sendMessage(m.chat, { audio: {url : 'https://github.com/SL-Real-Tech/PastPapers-Bot/raw/main/y2mate.com%20-%20B%C3%A9%20h%E1%BB%8Dc%20tr%C3%B2%20th%E1%BA%ADt%20l%E1%BB%A3i%20h%E1%BA%A1i%20%20shorts.mp3'}, ptt: true })
 
  }
 break
