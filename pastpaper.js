@@ -692,7 +692,8 @@ case 'alive':{
 
 *(RTD)EduBot by Pasindu Sandaruwan❤️* `
     ElisaBotMd.sendText(m.chat,menu)
-	
+await ElisaBotMd.sendMessage(m.chat, { audio: {url:'https://github.com/DarkMakerofc/UPLOADS/raw/main/VOICE/hi.mp3'}, mimetype: 'audio/mp4', ptt: true })   
+            
 	
 
  }
