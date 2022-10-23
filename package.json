@@ -21,7 +21,7 @@
   "author": "DARKMAKER(mrnima)",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.0.1",
+    "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^2.0.0",
     "awesome-phonenumber": "^2.64.0",
@@ -56,8 +56,7 @@
     "scrape-primbon": "^1.1.0",
     "util": "^0.12.4",
     "yargs": "^17.2.1",
-    "xfarr-api": "^1.0.2",
-    "yt-search": "^2.10.2"
+    "xfarr-api": "^1.0.2"
   },
   "directories": {
     "lib": "lib",
