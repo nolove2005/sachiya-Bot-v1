@@ -32,11 +32,11 @@ global.APIKeys = {
 }
 
 //other
-global.owner = ['94716338723'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
-global.pemilik = ['94716338723'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
-global.premium = ['94716338723'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
+global.owner = ['94767233346'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.pemilik = ['94767233346'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
+global.premium = ['94767233346'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
 global.pengguna = 'Pasindu Sandaruwan' // Your name ඔබේ නම 
-global.botnma = 'ᴾᵃˢᵗ ᴾᵃᵖᵉʳˢ ᴼᴸ ᵇᵒᵗ ᵇʸ ᴾᵃˢⁱⁿᵈᵘ ˢᵃⁿᵈᵃʳᵘʷᵃⁿ'// Your bot name , ඔබගෙ බොට්ගේ නම 
+global.botnma = '𝐒𝐀𝐂𝐇𝐈𝐘𝐀 𝐌𝐃'// Your bot name , ඔබගෙ බොට්ගේ නම 
 global.ownernma = 'Pasindu Sandaruwan' //ownernama,ownername
 global.packname = 'SL Real Tech' // Sticker package name 
 global.author = 'PLEASE SUBSCRIBE' // Sticker Autor name 
